@@ -22,7 +22,7 @@ Resources:
     Properties:
       ImageId: ami-0022f774911c1d690
       InstanceType: t2.micro
-      KeyName: yusuf
+      KeyName: cozi-key
       SecurityGroupIds:
         -  !Ref WebServerSecurityGroup
       Tags:
